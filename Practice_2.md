@@ -169,7 +169,17 @@ Menggunakan fungsi NOW untuk mendapatkan tanggal dan waktu saat ini:
 SELECT firstname, lastname, NOW() AS waktu_sekarang
 FROM EMPLOYEE;
 ```
+Membuat View yang menggabungkan informasi karyawan dan departemen:
 
+```{r}
+CREATE VIEW EmployeeDepartment AS
+SELECT EMPLOYEE.EmpId, EMPLOYEE.firstname, EMPLOYEE.lastname, EMPLOYEE.dept AS department
+FROM EMPLOYEE;
+```
+Memanggil View ini
+```{r}
+SELECT * FROM EmployeeDepartment;
+```
 
 
 
