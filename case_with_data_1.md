@@ -14,6 +14,11 @@ Berikut adalah beberapa query analisis data menggunakan SQL:
 
 5. **Rata-rata Harga per Kamar Tidur:** Hitung rata-rata harga properti per kamar tidur untuk setiap 'tipe' dan 'kode' di kota 'CHO'.
 
+Jika ingin belajar pakai dataset langsung bisa link berikut:
+
+Tapi Request dulu ya
+[Link ke Dokumen Google Sheets](https://docs.google.com/spreadsheets/d/1SAYrh4oL0S1UuwqkPXmZcwIhGPMzmM2YZ9176qHEChk/edit#gid=0)
+
 
 ```(r)
 -- 1. Ambil data total price di masing-masing code di kota SAC kemudian urutkan berdasarkan code paling awal hingga akhir.
